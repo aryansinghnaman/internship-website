@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Internships</title>
+  <style>
+    body {
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      background: linear-gradient(to right, #e0f2fe, #f0f9ff);
+      margin: 40px;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      color: #1f2937;
+    }
+
+    h1 {
+      font-size: 42px;
+      margin-bottom: 5px;
+      color: #0f172a;
+    }
+
+    h2 {
+      font-size: 24px;
+      margin-bottom: 5px;
+      color: #2563eb;
+    }
+
+    p {
+      font-size: 16px;
+      color: #475569;
+      margin-bottom: 30px;
+    }
+
+    .grid {
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+      gap: 24px;
+      max-width: 900px;
+      width: 100%;
+    }
+
+    .card {
+      background: #ffffff;
+      padding: 24px;
+      border: 1px solid #e5e7eb;
+      border-radius: 12px;
+      box-shadow: 0 6px 20px rgba(0, 0, 0, 0.08);
+      transition: transform 0.3s ease, box-shadow 0.3s ease;
+    }
+
+    .card:hover {
+      transform: translateY(-5px);
+      box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
+    }
+
+    .card h3 {
+      font-size: 20px;
+      margin-top: 0;
+      margin-bottom: 12px;
+      color: #1d4ed8;
+    }
+
+    .card ul {
+      list-style: disc;
+      padding-left: 20px;
+      margin-bottom: 20px;
+      color: #374151;
+    }
+
+    .btn {
+      display: inline-block;
+      padding: 10px 22px;
+      background-color: #3b82f6;
+      color: white;
+      text-decoration: none;
+      border-radius: 6px;
+      font-weight: bold;
+      transition: background 0.3s ease;
+    }
+
+    .btn:hover {
+      background-color: #1e40af;
+    }
+
+    @media (max-width: 768px) {
+      .grid {
+        grid-template-columns: 1fr;
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <h2>Aryan Singh</h2>
+  <p>Internship website – Project 2</p>
+
+  <h1>Internships</h1>
+
+  <div class="grid">
+    <div class="card">
+      <h3>Web Development Internship Program</h3>
+      <ul>
+        <li>Duration: 1 month / 2 months</li>
+        <li>Location: Virtual</li>
+        <li>Stipend: Unpaid</li>
+        <li>Start Date: 05/11/2023</li>
+      </ul>
+      <a href="https://example.com" class="btn">View Details</a>
+    </div>
+
+    <div class="card">
+      <h3>App Development Internship Program</h3>
+      <ul>
+        <li>Duration: 1 month / 2 months</li>
+        <li>Location: Virtual</li>
+        <li>Stipend: Unpaid</li>
+        <li>Start Date: 05/11/2023</li>
+      </ul>
+      <a href="https://example.com" class="btn">View Details</a>
+    </div>
+
+    <div class="card">
+      <h3>Python Programming Internship Program</h3>
+      <ul>
+        <li>Duration: 1 month / 2 months</li>
+        <li>Location: Virtual</li>
+        <li>Stipend: Unpaid</li>
+        <li>Start Date: 05/11/2023</li>
+      </ul>
+      <a href="https://example.com" class="btn">View Details</a>
+    </div>
+
+    <div class="card">
+      <h3>Java Programming Internship Program</h3>
+      <ul>
+        <li>Duration: 1 month / 2 months</li>
+        <li>Location: Virtual</li>
+        <li>Stipend: Unpaid</li>
+        <li>Start Date: 05/11/2023</li>
+      </ul>
+      <a href="https://example.com" class="btn">View Details</a>
+    </div>
+  </div>
+
+</body>
+</html>
